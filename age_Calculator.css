@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+.container {
+  width: 650px;
+  height: 400px;
+  margin: calc(50vh - 200px) auto;
+  border: 2px solid;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  border-radius: 0 0 25px 25px;
+  box-shadow:  0px 2px #bababa;
+}
+
+.base{
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.base .enter1{
+    width: 100%;
+    background-color: bisque;
+    box-shadow:  0px 2px #bababa;
+}
+
+h1{
+    width: fit-content;
+    margin: auto;
+    color: gray;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 24px;
+    text-align: left;
+    color: gray;
+}
+
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left:  20px;
+    display: inline-block;
+}
+
+input[type ="text"]{
+    width: 150px ;
+    margin: auto;
+    min-height: 50px;
+    border: 2px solid gray;
+    padding: 12px;
+    background-color: #f7f7ff;
+    border-radius: 5px;
+    color: gray;
+    font-size: 21px;
+    text-align: center;
+}
+
+input[type ="text"]:focus{
+    background-color: #ffffff;
+    border: 2px solid orange;
+}
+
+input[type ="button"]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: gray;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type ="button"]:hover{
+    background-color: lightblue;
+    color: gray;
+}
+
+#age{
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 35px;
+}
